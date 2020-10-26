@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`store should have a persistor 1`] = `
+Object {
+  "bootstrapped": true,
+  "registry": Array [],
+}
+`;
+
+exports[`store should have a store 1`] = `
+Object {
+  "_persist": Object {
+    "rehydrated": true,
+    "version": -1,
+  },
+  "app": Object {
+    "message": Object {
+      "content": "",
+      "type": "",
+    },
+    "status": undefined,
+  },
+  "user": Object {
+    "info": Object {
+      "email": "",
+      "id": -1,
+      "token": "",
+    },
+    "isAuthenticated": false,
+  },
+  "videos": Object {
+    "data": Array [],
+    "page": Object {
+      "current_page": 0,
+      "has_next": false,
+      "has_previous": false,
+      "total_elements": 0,
+      "total_pages": 1,
+    },
+  },
+}
+`;
